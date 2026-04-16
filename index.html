@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Años de Amistad - Tokyo Revengers</title>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Noto+Sans+JP:wght@400;700&family=Quicksand:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="fire-particles" id="fireParticles"></div>
+    <div class="sakura-particles" id="sakuraParticles"></div>
+
+    <header>
+        <div class="header-bg"></div>
+        <div class="logo-container">
+            <div class="outer-ring"></div>
+            <div class="inner-ring"></div>
+            <div class="drum-logo"><span>↑</span></div>
+        </div>
+        <h1>Tokyo <span>Revengers</span></h1>
+        <p class="subtitle">Capsula del tiempo  • Toman Division</p>
+        <div class="date-container">
+            <div class="date-box">
+                <span class="label">AÑOS DE AMISTAD</span>
+                <span>12</span>
+            </div>
+            <div class="date-box">  
+                <span class="label">PARA</span>
+                <span> Kat ❤️</span>
+            </div>
+            <div class="date-box">
+                <span class="label">JURAMENTO</span>
+                <span>AMIGOS POR SIEMPRE</span>
+            </div>
+        </div>
+    </header>
+
+    <div class="toman-section">
+        <div class="toman-banner">
+            <p class="toman-text">△ <span>TOKYO</span> MANJINKAI <span>△</span></p>
+        </div>
+    </div>
+
+    <div class="album-container">
+        <div class="section-title">
+            <h2>NUESTROS RECUERDOS</h2>
+            <div class="divider"></div>
+        </div>
+        
+        <div class="photo-grid" id="photoGrid">
+            <div class="photo-frame" onclick="openLightbox(0)">
+                <div class="frame-decoration"></div>
+                <div class="frame-inner">
+                    <img src="Imagenes/Primera salida.jpeg" alt="Foto 1">
+                </div>
+                <div class="photo-caption">Nuestra primera aventura juntos</div>
+                <div class="photo-date">2026</div>
+            </div>
+            <div class="photo-frame" onclick="openLightbox(1)">
+                <div class="frame-decoration"></div>
+                <div class="frame-inner">
+                    <img src="Imagenes/Imagen junsos.jpeg" alt="Foto 2">
+                </div>
+                <div class="photo-caption">Siempre conmigo en las buenas y malas</div>
+                <div class="photo-date">2026</div>
+            </div>
+            <div class="photo-frame" onclick="openLightbox(2)">
+                <div class="frame-decoration"></div>
+                <div class="frame-inner">
+                    <img src="Imagenes/Imagen en grupo.jpeg" alt="Foto 3">
+                </div>
+                <div class="photo-caption">Luchando lado a lado como verdaderos Toman</div>
+                <div class="photo-date">2026</div>
+            </div>
+            <div class="photo-frame" onclick="openLightbox(3)">
+                <div class="frame-decoration"></div>
+                <div class="frame-inner">
+                    <img src="Imagenes/Selfi.jpeg" alt="Foto 4">
+                </div>
+                <div class="photo-caption">Por ti atravesaría el tiempo si fuera necesario</div>
+                <div class="photo-date">2026</div>
+            </div>
+            <div class="photo-frame" onclick="openLightbox(4)">
+                <div class="frame-decoration"></div>
+                <div class="frame-inner">
+                    <img src="Imagenes/Cuadros.jpeg" alt="Foto 5">
+                </div>
+                <div class="photo-caption">Sin importar qué, siempre estaré ahí</div>
+                <div class="photo-date">2026</div>
+            </div>
+            <div class="photo-frame" onclick="openLightbox(5)">
+                <div class="frame-decoration"></div>
+                <div class="frame-inner">
+                    <img src="Imagenes/Primera carta.jpeg"Foto 6">
+                </div>
+                <div class="photo-caption">Hasta el final, como los capitanes de Toman</div>
+                <div class="photo-date">2026</div>
+            </div>
+            <div class="photo-frame" onclick="openLightbox(6)">
+                <div class="frame-decoration"></div>
+                <div class="frame-inner">
+                    <img src="Imagenes/Favorita.jpeg" alt="Foto 7">
+                </div>
+                <div class="photo-caption">Mi persona especial en este mundo</div>
+                <div class="photo-date">2026</div>
+            </div>
+            <div class="photo-frame" onclick="openLightbox(7)">
+                <div class="frame-decoration"></div>
+                <div class="frame-inner">
+                    <img src="Imagenes/Salida casa.jpeg" alt="Foto 8">
+                </div>
+                <div class="photo-caption">Juntos escribiendo nuestra historia</div>
+                <div class="photo-date">2026</div>
+            </div>
+        </div>
+
+        <div class="button-container">
+            <button class="add-photo-btn" onclick="document.getElementById('fileInput').click()">
+                ⚡ AGREGAR RECUERDO ⚡
+            </button>
+            <input type="file" id="fileInput" class="file-input" accept="image/*" multiple onchange="addPhotos(event)">
+        </div>
+    </div>
+
+    <div class="memory-section">
+        <div class="memory-wall">
+            <h2>Para Mi Chica <span>Toman</span> 💕</h2>
+            <p>
+                Así como Takemichi viajaba una y otra vez en el tiempo por salvar a sus amigos,
+                este regalo es mi forma de expresar cada momento valioso que hemos compartido.
+                Eres mi Mikey, mi Draken, mi persona más importante en esta historia de vida.
+            </p>
+            <p style="margin-top: 20px;">
+                Gracias por ser esa amiga que siempre me saca una sonrisa, que me apoya cuando todo se siente perdido,
+                que celebra mis victorias y me levanta en mis caídas. Eres esa persona única que aparece una vez en la vida.
+                Te quiero 3 millones ❤️
+            </p>
+            <div class="quote-box">
+                <p>"No importa cuántas veces tenga que volver atrás...<br>te encontraré y te protegeré."</p>
+                <p style="margin-top: 10px; color: var(--gold);">— Por nuestra amistad que trasciende el tiempo ⏳</p>
+            </div>
+            <div class="future-box">
+                <span class="cherry-leaf">🍁</span>
+                <span class="future-message">No sé lo que nos depara en el futuro, pero sería genial que formaras parte de él</span>
+            </div>
+            <div class="owl-house-sign">
+                <span class="owl-logo">🦉</span>
+                <span class="owl-text">Hermanos de pupas por siempre</span>
+            </div>
+            <p class="signature">— Tu mejor amigo del pasado, presente y futuro</p>
+        </div>
+    </div>
+
+    <div class="lightbox" id="lightbox" onclick="closeLightbox(event)">
+        <div class="lightbox-content">
+            <span class="lightbox-close" onclick="closeLightbox(event)">✕</span>
+            <img id="lightboxImg" src="" alt="Foto ampliada">
+            <div class="lightbox-caption" id="lightboxCaption"></div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer-logo">△ Tokyo <span>Revengers</span> △</div>
+        <p class="footer-text">Creado con amor para la mejor amiga del mundo 🌸</p>
+        <div class="stark-footer">
+            <span class="reactor">⚛</span>
+            <span class="love-text">Te quiero 3 millones</span>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
