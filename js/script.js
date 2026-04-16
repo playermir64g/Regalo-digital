@@ -25,7 +25,7 @@ document.addEventListener('DOMContentLoaded', function() {
         { src: 'Imagenes/Fondo ojos.jpeg', caption: 'Por muchos más años de amistad', date: '2026', type: 'image' },
         { src: 'Imagenes/tikets.jpeg', caption: 'Los mejores momentos son contigo', date: '2026', type: 'image' },
         { src: 'Imagenes/rockstar.jpeg', caption: 'Contigo todo es más divertido', date: '2026', type: 'image' },
-        { src: 'Imagenes/algodon.jpeg', caption: 'Mi persona favorita del mundo', date: '2026', type: 'image' },
+        { src: 'Imagenes/Algodon.jpeg', caption: 'Mi persona favorita del mundo', date: '2026', type: 'image' },
         { src: 'Imagenes/llaveros.jpeg', caption: 'Por nuestra amistad infinita', date: '2026', type: 'image' },
         { src: 'Imagenes/gatos parados.jpeg', caption: 'Juntos somos imparables', date: '2026', type: 'image' },
         { src: 'Imagenes/tiro.jpeg', caption: 'Mis recuerdos favoritos tienen tu cara', date: '2026', type: 'image' },
