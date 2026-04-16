@@ -18,7 +18,19 @@ document.addEventListener('DOMContentLoaded', function() {
         { src: 'Imagenes/Cuadros.jpeg', caption: 'Sin importar qué, siempre estaré ahí', date: '2026', type: 'image', poster: 'https://images.unsplash.com/photo-1529619768328-e37af76c6fe5?w=400&h=300&fit=crop' },
         { src: 'Imagenes/Primera carta.jpeg', caption: 'Hasta el final, como los capitanes de Toman', date: '2026', type: 'image' },
         { src: 'Imagenes/Favorita.jpeg', caption: 'Mi persona especial en este mundo', date: '2026', type: 'image', poster: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=400&h=300&fit=crop' },
-        { src: 'Imagenes/Salida casa.jpeg', caption: 'Juntas escribiendo nuestra historia', date: '2026', type: 'image' }
+        { src: 'Imagenes/Salida casa.jpeg', caption: 'Juntas escribiendo nuestra historia', date: '2026', type: 'image' },
+        { src: 'Imagenes/Mi habraso favorito.jpeg', caption: 'Siempre hay un refugio en un abrazo.', date: '2026', type: 'image' },
+        { src: 'Imagenes/habraso lengua.jpeg', caption: 'Contigo cada momento es especial', date: '2026', type: 'image' },
+        { src: 'Imagenes/dedos.jpeg', caption: 'Mi mejor compañera de aventuras', date: '2026', type: 'image' },
+        { src: 'Imagenes/Fondo ojos.jpeg', caption: 'Por muchos más años de amistad', date: '2026', type: 'image' },
+        { src: 'Imagenes/tikets.jpeg', caption: 'Los mejores momentos son contigo', date: '2026', type: 'image' },
+        { src: 'Imagenes/rockstar.jpeg', caption: 'Contigo todo es más divertido', date: '2026', type: 'image' },
+        { src: 'Imagenes/algodon.jpeg', caption: 'Mi persona favorita del mundo', date: '2026', type: 'image' },
+        { src: 'Imagenes/llaveros.jpeg', caption: 'Por nuestra amistad infinita', date: '2026', type: 'image' },
+        { src: 'Imagenes/gatos parados.jpeg', caption: 'Juntos somos imparables', date: '2026', type: 'image' },
+        { src: 'Imagenes/tiro.jpeg', caption: 'Mis recuerdos favoritos tienen tu cara', date: '2026', type: 'image' },
+        { src: 'Imagenes/lengua.jpeg', caption: 'Eres la mejor persona que conozco', date: '2026', type: 'image' },
+        { src: 'Imagenes/gatos.jpeg', caption: 'Gracias por existir', date: '2026', type: 'image' }
     ];
 
     // Create fire particles
