@@ -22,7 +22,10 @@ const photos = [
     { src: 'Imagenes/Corazones.jpeg', caption: 'Sabiendo que contigo todo es más fácil', date: '2026' },
     { src: 'Imagenes/Llamadita.jpeg', caption: 'Eres mi persona favorita para todo', date: '2026' },
     { src: 'Imagenes/Minecraft.jpeg', caption: 'A tu lado hasta el infinito', date: '2026' },
-    { src: 'Imagenes/mine.jpeg', caption: 'Siempre juntas en cada aventura', date: '2026' }
+    { src: 'Imagenes/mine.jpeg', caption: 'Siempre juntos en cada aventura', date: '2026' },
+    { src: 'Imagenes/Espuma.jpeg', caption: 'Somos esos que hacen especial lo simple.', date: '2026' },
+    { src: 'Imagenes/Mia.jpeg', caption: 'Somos diferentes…', date: '2026' },
+    { src: 'Imagenes/Ella.jpeg', caption: '…pero inseparables.', date: '2026' },
 ];
 
 document.addEventListener('DOMContentLoaded', function() {
